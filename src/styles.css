@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+.bg-custom-dark{
+  background-color: #2875c4;
+}
+.bg-custom-light{
+  background-color: #7799d4;
+}
+.img{
+  width: 100%;
+}

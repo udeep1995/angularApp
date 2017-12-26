@@ -1,0 +1,41 @@
+@-webkit-keyframes rotate3D {
+  0%{
+    transform: rotateX(22deg);
+  }
+  100%{
+    transform: rotateX(-22deg);
+  }
+}
+
+@-moz-keyframes rotate3D {
+  0%{
+    transform: rotateX(22deg);
+  }
+  100%{
+    transform: rotateX(-22deg);
+  }
+}
+
+@-o-keyframes rotate3D {
+  0%{
+    transform: rotateX(22deg);
+  }
+  100%{
+    transform: rotateX(-22deg);
+  }
+}
+
+@keyframes rotate3D {
+  0%{
+    transform: rotateX(22deg);
+  }
+  100%{
+    transform: rotateX(-22deg);
+  }
+}
+.rotate{
+  animation-name: rotate3D;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
